@@ -1,4 +1,8 @@
 name: Shubham Gandhi, Razorthink Inc.
 markdown: kramdown
-
 permalink: /blog/:year/:month/:day/:title
+port: 8000
+auto: true
+safe: true
+server: true
+pygments: true
