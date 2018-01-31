@@ -1,2 +1,4 @@
 name: Shubham Gandhi, Razorthink Inc.
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
