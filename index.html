@@ -1,9 +1,722 @@
----
-layout: default
-title: Shubham Gandhi, Razorthink Inc.
----
-<div class="blurb">
-	<h1>Hi there, I'm Shubham Gandhi!</h1>
-	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me.
-		<a href="/about">Read more about my life...</a></p>
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet"
+          href="https://www.gstatic.com/_/freebird/_/ss/k=freebird.v.-k3shbpel3bqv.L.W.O/d=1/rs=AMjVe6gRGKbzOmxCbM57MXRjNCqUrfTYOA"
+          data-id="_cl">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&subset=latin,vietnamese,latin-ext,cyrillic,greek,cyrillic-ext,greek-ext"
+          rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Product+Sans&subset=latin,vietnamese,latin-ext,cyrillic,greek,cyrillic-ext,greek-ext"
+          rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700&subset=latin,vietnamese,latin-ext,cyrillic,greek,cyrillic-ext,greek-ext"
+          rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Product+Sans&subset=latin,vietnamese,latin-ext,cyrillic,greek,cyrillic-ext,greek-ext"
+          rel="stylesheet" type="text/css">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <meta charset="utf-8"/>
+    <title>Explainable AI - Questions</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+    <style type="text/css">
+    .highlight .hll { background-color: #ffffcc }
+.highlight  { background: #f8f8f8; }
+.highlight .c { color: #408080; font-style: italic } /* Comment */
+.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .k { color: #008000; font-weight: bold } /* Keyword */
+.highlight .o { color: #666666 } /* Operator */
+.highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
+.highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #A00000 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #FF0000 } /* Generic.Error */
+.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #00A000 } /* Generic.Inserted */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight .gt { color: #0044DD } /* Generic.Traceback */
+.highlight .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: #008000 } /* Keyword.Pseudo */
+.highlight .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #B00040 } /* Keyword.Type */
+.highlight .m { color: #666666 } /* Literal.Number */
+.highlight .s { color: #BA2121 } /* Literal.String */
+.highlight .na { color: #7D9029 } /* Name.Attribute */
+.highlight .nb { color: #008000 } /* Name.Builtin */
+.highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.highlight .no { color: #880000 } /* Name.Constant */
+.highlight .nd { color: #AA22FF } /* Name.Decorator */
+.highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
+.highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #0000FF } /* Name.Function */
+.highlight .nl { color: #A0A000 } /* Name.Label */
+.highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
+.highlight .nv { color: #19177C } /* Name.Variable */
+.highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mb { color: #666666 } /* Literal.Number.Bin */
+.highlight .mf { color: #666666 } /* Literal.Number.Float */
+.highlight .mh { color: #666666 } /* Literal.Number.Hex */
+.highlight .mi { color: #666666 } /* Literal.Number.Integer */
+.highlight .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
+.highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
+.highlight .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
+.highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.highlight .s2 { color: #BA2121 } /* Literal.String.Double */
+.highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
+.highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.highlight .sx { color: #008000 } /* Literal.String.Other */
+.highlight .sr { color: #BB6688 } /* Literal.String.Regex */
+.highlight .s1 { color: #BA2121 } /* Literal.String.Single */
+.highlight .ss { color: #19177C } /* Literal.String.Symbol */
+.highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #0000FF } /* Name.Function.Magic */
+.highlight .vc { color: #19177C } /* Name.Variable.Class */
+.highlight .vg { color: #19177C } /* Name.Variable.Global */
+.highlight .vi { color: #19177C } /* Name.Variable.Instance */
+.highlight .vm { color: #19177C } /* Name.Variable.Magic */
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+    <style type="text/css">
+
+/* Temporary definitions which will become obsolete with Notebook release 5.0 */
+.ansi-black-fg { color: #3E424D; }
+.ansi-black-bg { background-color: #3E424D; }
+.ansi-black-intense-fg { color: #282C36; }
+.ansi-black-intense-bg { background-color: #282C36; }
+.ansi-red-fg { color: #E75C58; }
+.ansi-red-bg { background-color: #E75C58; }
+.ansi-red-intense-fg { color: #B22B31; }
+.ansi-red-intense-bg { background-color: #B22B31; }
+.ansi-green-fg { color: #00A250; }
+.ansi-green-bg { background-color: #00A250; }
+.ansi-green-intense-fg { color: #007427; }
+.ansi-green-intense-bg { background-color: #007427; }
+.ansi-yellow-fg { color: #DDB62B; }
+.ansi-yellow-bg { background-color: #DDB62B; }
+.ansi-yellow-intense-fg { color: #B27D12; }
+.ansi-yellow-intense-bg { background-color: #B27D12; }
+.ansi-blue-fg { color: #208FFB; }
+.ansi-blue-bg { background-color: #208FFB; }
+.ansi-blue-intense-fg { color: #0065CA; }
+.ansi-blue-intense-bg { background-color: #0065CA; }
+.ansi-magenta-fg { color: #D160C4; }
+.ansi-magenta-bg { background-color: #D160C4; }
+.ansi-magenta-intense-fg { color: #A03196; }
+.ansi-magenta-intense-bg { background-color: #A03196; }
+.ansi-cyan-fg { color: #60C6C8; }
+.ansi-cyan-bg { background-color: #60C6C8; }
+.ansi-cyan-intense-fg { color: #258F8F; }
+.ansi-cyan-intense-bg { background-color: #258F8F; }
+.ansi-white-fg { color: #C5C1B4; }
+.ansi-white-bg { background-color: #C5C1B4; }
+.ansi-white-intense-fg { color: #A1A6B2; }
+.ansi-white-intense-bg { background-color: #A1A6B2; }
+
+.ansi-bold { font-weight: bold; }
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+    <style type="text/css">
+/* Overrides of notebook CSS for static HTML export */
+body {
+  overflow: visible;
+  padding: 8px;
+}
+
+.inputbox{
+ width:100%;
+}
+
+div#notebook {
+  overflow: visible;
+  border-top: none;
+}@media print {
+  div.cell {
+    display: block;
+    page-break-inside: avoid;
+  }
+  div.output_wrapper {
+    display: block;
+    page-break-inside: avoid;
+  }
+  div.output {
+    display: block;
+    page-break-inside: avoid;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+    <!-- Custom stylesheet, it must be in the same directory as the html file -->
+    <!--<link rel="stylesheet" href="custom.css">-->
+
+    <!-- Loading mathjax macro -->
+    <!-- Load mathjax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
+    <!-- MathJax configuration -->
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true,
+            processEnvironments: true
+        },
+        // Center justify equations in code and markdown cells. Elsewhere
+        // we use CSS to left justify single line equations in code cells.
+        displayAlign: 'center',
+        "HTML-CSS": {
+            styles: {'.MathJax_Display': {"margin": 0}},
+            linebreaks: { automatic: true }
+        }
+    });
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+    <!-- End of mathjax configuration -->
+</head>
+
+<body>
+   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <!-- Style The Contact Form How Ever You Prefer -->
+   <link rel="stylesheet" href="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/style.css">
+<div tabindex="-1" id="notebook" class="border-box-sizing" onLoad="setfocus()">
+    <div class="container" id="notebook-container">
+        <!--table of contents-->
+        <div class="cell border-box-sizing text_cell rendered">
+            <div class="prompt input_prompt">
+            </div>
+            <div class="inner_cell">
+                <div class="text_cell_render border-box-sizing rendered_html">
+                    <p>
+                    <h1>Table of Contents<span class="tocSkip"></span></h1></p>
+                    <div class="toc">
+                        <ul class="toc-item">
+                            <li><span><a href="#Explainable-AI" data-toc-modified-id="Explainable-AI-1"><span
+                                    class="toc-item-num">1&nbsp;&nbsp;</span>Explainable AI</a></span>
+                                <ul class="toc-item">
+                                    <li><span><a href="#What-are-the-most-important-features?"
+                                                 data-toc-modified-id="What-are-the-most-important-features?-1.1"><span
+                                            class="toc-item-num">1.1&nbsp;&nbsp;</span>What are the most important features?</a></span>
+                                    </li>
+                                    <li><span><a href="#What-model-is-being-used-for-prediction?"
+                                                 data-toc-modified-id="What-model-is-being-used-for-prediction?-1.2"><span
+                                            class="toc-item-num">1.2&nbsp;&nbsp;</span>What model is being used for prediction?</a></span>
+                                    </li>
+                                    <li><span><a href="#How-well-is-the-model-performing?"
+                                                 data-toc-modified-id="How-well-is-the-model-performing?-1.3"><span
+                                            class="toc-item-num">1.3&nbsp;&nbsp;</span>How well is the model performing?</a></span>
+                                    </li>
+                                    <li><span><a
+                                            href="#What-are-the-important-features-in-a-segment-with-respect-to-the-target-variable"
+                                            data-toc-modified-id="What-are-the-important-features-in-a-segment-with-respect-to-the-target-variable-1.4"><span
+                                            class="toc-item-num">1.4&nbsp;&nbsp;</span>What are the important features in a segment with respect to the target variable</a></span>
+                                    </li>
+                                    <li><span><a href="#What-are-the-differences-between-the-segments?"
+                                                 data-toc-modified-id="What-are-the-differences-between-the-segments?-1.5"><span
+                                            class="toc-item-num">1.5&nbsp;&nbsp;</span>What are the differences between the segments?</a></span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--1 explainable ai-->
+        <div class="cell border-box-sizing text_cell rendered">
+            <div class="prompt input_prompt">
+            </div>
+            <div class="inner_cell">
+                <div class="text_cell_render border-box-sizing rendered_html">
+                    <h3 id="Explainable-AI">Explainable AI<a class="anchor-link" href="#Explainable-AI">&#182;</a></h3>
+                </div>
+            </div>
+        </div>
+        <div class="cell border-box-sizing text_cell rendered">
+            <div class="prompt input_prompt">
+            </div>
+            <div class="inner_cell">
+                <div class="text_cell_render border-box-sizing rendered_html">
+                    <p>The purpose of this document is to give a preview of the explanations for the questions provided
+                        in the accompanying Google form.</p>
+
+                </div>
+            </div>
+        </div>
+        <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="shubham@razorthink.com"
+              action="https://script.google.com/macros/s/AKfycbxeTzJfB1C5PQyDvfI5HwZQRD9JWh7buAUvFGvVUMvsia9sJG4/exec">
+            <!--1.1 -->
+            <div class="cell border-box-sizing text_cell rendered">
+                <div class="prompt input_prompt">
+                </div>
+                <div class="inner_cell">
+                    <div class="text_cell_render border-box-sizing rendered_html">
+                        <h4 id="What-are-the-most-important-features?">What are the most important features?<a
+                                class="anchor-link" href="#What-are-the-most-important-features?">&#182;</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="cell border-box-sizing text_cell rendered">
+                <div class="prompt input_prompt">
+                </div>
+                <div class="inner_cell">
+                    <div class="text_cell_render border-box-sizing rendered_html">
+                        <p>A staple question for all the businessmen. To answer this question, we will display the list
+                            of
+                            variables in decreasing order of importance. Is there any other way to answer this question
+                            that
+                            makes it more intuitive and easy to understand? Also is the answer sufficient in terms of
+                            content?</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="cell border-box-sizing text_cell rendered">
+                <div class="prompt input_prompt">
+                </div>
+                <div class="inner_cell">
+                    <div class="text_cell_render border-box-sizing rendered_html">
+                        <div style="color:#33222;margin-left:30px;font-size:.9em;font-family:Tahoma">
+                            From a global perspective, the model found that the following features had a significant
+                            effect
+                            on propensity to buy life insurance
+                            <ul>
+                                <li>number of credit transactions made,</li>
+                                <li>number of debit transactions, and</li>
+                                <li>number of transactions made through cheques and other modes</li>
+                            </ul>
+                            Other factors of customer behavior important to measure inclination towards life insurance
+                            are -
+                            age and number of dependents, etc.
+                        </div>
+                        <tr style="color:#222;margin-left:0px;font-size:.9em;font-family:Tahoma; margin: 0 auto">
+                            <td style="">
+                                <img width=60% src="var_imp_plot.png" alt="Drawing" style="border:1px solid #ddd;"/>
+                                <p style="text-align:justify;width:64%; margin: 20px auto">
+                                    The graph shows which variables are instrumental in the prediction process. The
+                                    importance is defined as the ratio between the number of samples routed to a
+                                    decision
+                                    node involving that feature in any of the trees of the ensemble over the total
+                                    number of
+                                    samples in the training set.
+
+
+                                </p>
+                            </td>
+                            <!--     <td style="width: 50%;">
+            <img src="acc_drop.png" alt="Drawing" style="width: 1000px;"/>
+            <p style="width: 100%;font-size: 11px; color:#7baad9;text-align:justify; opacity: 0.9">
+                This graph shows the drop in accuracy when we exclude a variable from our prediction processes. Higher drop in accuracy indicates higher relative importance of a particular variable.
+            </p>
+        </td> -->
+                        </tr>
+                    </div>
+                </div>
+            </div>
+            <!--1.1 form cell -->
+            <fieldset class="pure-group">
+                <label for="question1">Question 1: </label>
+                <input id="question1" name="question1" placeholder="Your response"/>
+            </fieldset>
+
+            <!--1.2-->
+            <div class="cell border-box-sizing text_cell rendered">
+                <div class="prompt input_prompt">
+                </div>
+                <div class="inner_cell">
+                    <div class="text_cell_render border-box-sizing rendered_html">
+                        <h4 id="What-model-is-being-used-for-prediction?">What model is being used for prediction?<a
+                                class="anchor-link" href="#What-model-is-being-used-for-prediction?">&#182;</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="cell border-box-sizing text_cell rendered">
+                <div class="prompt input_prompt">
+                </div>
+                <div class="inner_cell">
+                    <div class="text_cell_render border-box-sizing rendered_html">
+                        <p>Our response to this question will constitute the following information - the type of model,
+                            a
+                            short description of it, the types of problems it is generally used on and any caveats
+                            associated with it. Assuming you are a business stakeholder in a project and have nominal
+                            experience in data based solutions, what else would you want to know?</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="cell border-box-sizing text_cell rendered">
+                <div class="prompt input_prompt">
+                </div>
+                <div class="inner_cell">
+                    <div class="text_cell_render border-box-sizing rendered_html">
+                        <div style="color:#33222;margin-left:30px;font-size:.9em;font-family:Tahoma">
+                            <p>Since this a problem of classification problem, we are using a Logistic Regression model.
+                                Logistic regression models are useful in extracting insights from data.
+                            </p>
+                            <br/>
+                        </div>
+                        <table style="width:800px;text-align:left;border:1px solid #ddd;margin:0 auto">
+                            <tr>
+                                <th style="text-align:left;">Model</th>
+                                <td style="text-align:left;">Logistic Regression</td>
+                            </tr>
+                            <tr>
+                                <th style="text-align:left;">Description</th>
+                                <td style="text-align:left;padding-right:10px;">Logistic Regression is a probability
+                                    estimator used to estimate the probability of an event occurring having been given
+                                    some
+                                    previous data
+                                </td>
+                            </tr>
+                            <tr>
+                                <th style="text-align:left;">Interpretability</th>
+                                <td style="text-align:left;">High</td>
+                            </tr>
+                            <tr>
+                                <th style="text-align:left;">Used for</th>
+                                <td style="text-align:left;">Classification problems</td>
+                            </tr>
+                            <tr>
+                                <th style="text-align:left;">Caveats</th>
+                                <td style="text-align:left;">Linear model, doesn't capture non-linearity in data</td>
+                            </tr>
+                            <tr>
+                                <th style="text-align:left;">Use case</th>
+                                <td style="text-align:left;">
+                                    <ul style="padding:0px, 20px;">
+                                        <li>Predict the chances of a customer defaulting</li>
+                                        <li>Predict the propensity of a customer buying a product</li>
+                                        <li>Predict if a customer will churn</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!--1.2 form cell -->
+            <fieldset class="pure-group">
+                <label for="question2">Question 2: </label>
+                <input id="question2" name="question2" placeholder="Your response"/>
+            </fieldset>
+
+            <!--1.3-->
+            <div class="cell border-box-sizing text_cell rendered">
+                <div class="prompt input_prompt">
+                </div>
+                <div class="inner_cell">
+                    <div class="text_cell_render border-box-sizing rendered_html">
+                        <h4 id="How-well-is-the-model-performing?">How well is the model performing?<a
+                                class="anchor-link"
+                                href="#How-well-is-the-model-performing?">&#182;</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="cell border-box-sizing text_cell rendered">
+                <div class="prompt input_prompt">
+                </div>
+                <div class="inner_cell">
+                    <div class="text_cell_render border-box-sizing rendered_html">
+                        <p>While there are many accuracy metrics we can report, we will be displaying only a few of them
+                            based on relevance. The answer will have a format similar to this- name of the metric, a
+                            short
+                            description, its value, and the range it should lie in. We can add a second pa What are your
+                            expectations? Does this response provide sufficient information?</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="cell border-box-sizing text_cell rendered">
+                <div class="prompt input_prompt">
+                </div>
+                <div class="inner_cell">
+                    <div class="text_cell_render border-box-sizing rendered_html">
+                        <table style="width:800px;text-align:left;border:1px solid #ddd;margin:0 auto">
+                            <tr>
+                                <th style="width:15%;text-align:left;">Metric</th>
+                                <th style="width:10%;text-align:left;">Value</th>
+                                <th style="width:75%;text-align:left;">Description</th>
+                            </tr>
+                            <tr>
+                                <th style="text-align:left;">AUC-ROC</th>
+                                <td style="text-align:left;">0.83</td>
+                                <td style="text-align:left;">
+                                    It shows how far off the model is from a randomly predicting machine. For the
+                                    baseline
+                                    it's 0.5, and for
+                                    the perfect classifier it's 1.<br>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th style="text-align:left;">GINI</th>
+                                <td style="text-align:left;">0.66</td>
+                                <td style="text-align:left;">GINI is a measure of inequality in a population. Higher
+                                    values
+                                    indicate better prediction
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th style="text-align:left;">Accuracy</th>
+                                <td style="text-align:left;">0.88</td>
+                                <td style="text-align:left;">Accuracy measures the percentage of cases where predicted
+                                    outcome matches the actual outcome
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th style="text-align:left;">Sensitivity</th>
+                                <td style="text-align:left;">0.78</td>
+                                <td style="text-align:left;">
+                                    Sensitivity measures the proportion of positives that are correctly identified as
+                                    such
+                                    (e.g. the percentage of sick people who are correctly identified as having the
+                                    condition).
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th style="text-align:left;">Specificity</th>
+                                <td style="text-align:left;">0.81</td>
+                                <td style="text-align:left;">
+                                    Specificity measures the proportion of negatives that are correctly identified as
+                                    such
+                                    (e.g. the percentage of healthy people who are correctly identified as not having
+                                    the
+                                    condition).
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!--1.3 form cell -->
+            <fieldset class="pure-group">
+                <label for="question3">Question 3: </label>
+                <input id="question3" name="question3" placeholder="Your response"/>
+            </fieldset>
+            <!--1.4-->
+            <div class="cell border-box-sizing text_cell rendered">
+                <div class="prompt input_prompt">
+                </div>
+                <div class="inner_cell">
+                    <div class="text_cell_render border-box-sizing rendered_html">
+                        <h4 id="What-are-the-important-features-in-a-segment-with-respect-to-the-target-variable">What
+                            are
+                            the important features in a segment with respect to the target variable<a
+                                    class="anchor-link"
+                                    href="#What-are-the-important-features-in-a-segment-with-respect-to-the-target-variable">&#182;</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="cell border-box-sizing text_cell rendered">
+                <div class="prompt input_prompt">
+                </div>
+                <div class="inner_cell">
+                    <div class="text_cell_render border-box-sizing rendered_html">
+                        <p>To provide deeper and more meaningful explanations, we will be performing a few exercises in
+                            addition to the task. Segmentation/Clustering is one of them. Each cluster has different
+                            properties which means that for each segment, the variable importance might change. Here the
+                            idea is to show that if we created a separate model for each segment what would the most
+                            important variables be. Think of this as question 3 but at the segment scale. Would this
+                            information suffice?</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="cell border-box-sizing text_cell rendered">
+                <div class="prompt input_prompt">
+                </div>
+                <div class="inner_cell">
+                    <div class="text_cell_render border-box-sizing rendered_html">
+                        <p>
+                        <div style="text-align:center;"><b style="color:#666">
+                            The graph below compares the importance of features across the clusters.
+                        </b>
+                        </div>
+                        </p>
+                        <p>
+                            <tr>
+                                <td><img src="seg_2.png" alt="Drawing" style="width: 49%;display:inline-block;"/></td>
+                                <td><img src="seg_4.png" alt="Drawing" style="width: 49%;display:inline-block;"/></td>
+                            </tr>
+                        </p>
+                        <div style="color:#222;margin-left:30px;font-size:.9em;font-family:Tahoma">
+                            <p>
+                                In each of the graphs below, the variables have been ranked in arranged in decreasing
+                                order
+                                of their importance. In the graph for <i>Segment 2</i>, number of credit and debit
+                                counts
+                                are less important as compared to <i>Segment 4</i>. For segment 4, number of credit and
+                                debit counts are the most important variables.
+                            </p>
+                            <p>
+                                This implies that for Segment 4, total credit and debit counts are the most important
+                                features for predicting life insurance whereas in segment 2, BRC_count and SYS_count are
+                                the
+                                most important variables.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--1.4 form cell -->
+            <fieldset class="pure-group">
+                <label for="question4">Question 4: </label>
+                <input id="question4" name="question4" placeholder="Your response"/>
+            </fieldset>
+            <!--1.5-->
+            <div class="cell border-box-sizing text_cell rendered">
+                <div class="prompt input_prompt">
+                </div>
+                <div class="inner_cell">
+                    <div class="text_cell_render border-box-sizing rendered_html">
+                        <h4 id="What-are-the-differences-between-the-segments?">What are the differences between the
+                            segments?<a class="anchor-link"
+                                        href="#What-are-the-differences-between-the-segments?">&#182;</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="cell border-box-sizing text_cell rendered">
+                <div class="prompt input_prompt">
+                </div>
+                <div class="inner_cell">
+                    <div class="text_cell_render border-box-sizing rendered_html">
+                        <p>The difference between this and the above question is the exclusion of target variable. In
+                            the
+                            previous question, we looked at variable importance with respect to the target variable. In
+                            this
+                            question however, we will show how much the variables differ from each other by showing a
+                            graphical comparison of their summary statistics. We will also show how the target variable
+                            descriptive measures (mean, median, mode, etc) vary across each cluster. Is this answer
+                            sufficient to broadly answer the question</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="cell border-box-sizing text_cell rendered">
+                <div class="prompt input_prompt">
+                </div>
+                <div class="inner_cell">
+                    <div class="text_cell_render border-box-sizing rendered_html">
+                        <div style="text-align:center;color:#222;margin-left:0px auto;font-size:0.9em;font-family:Tahoma">
+
+                            <b style="color:#666;display:block;font-size:1em;">
+                                The graphs below compare the two clusters using the statistical values of the predictor
+                                variables.
+                            </b>
+
+                            <tr style="margin:0 auto">
+                                <td><img src="cluster_comparison_means.png" alt="Drawing"
+                                         style="display:inline;width:33%;border:1px solid #ddd;"/></td>
+                                <td><img src="cluster_comparison_medians.png" alt="Drawing"
+                                         style="display:inline;width:33%;border: 1px solid #ddd;"/></td>
+                                <td><img src="cluster_comparison_event_rate.png" alt="Drawing"
+                                         style="display:inline;width:33%;border: 1px solid #ddd;"/></td>
+                            </tr>
+                            <p></p>
+                            <p></p>
+                            <p style="display:block;font-size:1em;">
+                                In first two graphs we compare the means and medians of the two clusters. The blue lines
+                                represent the Segment 4 and red bars represent the Segment 2. We can clearly see the
+                                difference between average values of <i>age, ATM_count, along with total credit and
+                                debit
+                                counts.</i> The average value of total credit/debit counts is significantly lower in
+                                Segment
+                                2. This explains the significantly lower event rates in the third graph for Segment 2
+                            </p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--1.5 form cell -->
+            <fieldset class="pure-group">
+                <label for="question5">Question 5: </label>
+                <input id="question5" name="question5" placeholder="Your response"/>
+            </fieldset>
+
+            <!--1.6 email-->
+            <fieldset class="pure-group">
+              <label for="email"><em>Your</em> Email Address:</label>
+              <input id="email" name="email" type="email" value=""
+              required placeholder="email@rzaorthink.com"/>
+              <span id="email-invalid" style="display:none">
+                Must be a valid email address</span>
+            </fieldset>
+
+            <button class="button-success pure-button button-xlarge">
+                <i class="fa fa-paper-plane"></i>&nbsp;Send
+            </button>
+        </form>
+        <div style="display:none;" id="thankyou_message">
+            <h2><em>Thanks</em> for contacting us!
+                We will get back to you soon!</h2>
+        </div>
+
+    </div>
 </div>
+<script data-cfasync="false" type="text/javascript"
+        src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+
+</body>
+</html>
