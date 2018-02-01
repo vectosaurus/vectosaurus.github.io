@@ -2,46 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f676e50d-f56f-4725-83d4-ec98d1a07c58" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/acc_drop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/cluster_comparison_event_rate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/cluster_comparison_means.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/cluster_comparison_medians.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/seg_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/seg_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/tsa_plot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/var_imp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/var_imp_plot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/acc_drop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/cluster_comparison_event_rate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/cluster_comparison_means.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/cluster_comparison_medians.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/seg_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/seg_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/tsa_plot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/var_imp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/var_imp_plot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/ES.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/_config.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/form-submission-handler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/google-apps-script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/index_.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-02-01-xai-form.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/ES.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/_config.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/form-submission-handler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/google-apps-script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/index_.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-02-01-xai-form-ES.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/ES.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -332,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517394721995</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added defaults">
+      <created>1517508058358</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1517508058358</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
