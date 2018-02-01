@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f676e50d-f56f-4725-83d4-ec98d1a07c58" name="Default" comment="" />
+    <list default="true" id="f676e50d-f56f-4725-83d4-ec98d1a07c58" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/acc_drop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/cluster_comparison_event_rate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/cluster_comparison_means.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/cluster_comparison_medians.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/seg_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/seg_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/tsa_plot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/var_imp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/var_imp_plot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/acc_drop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/cluster_comparison_event_rate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/cluster_comparison_means.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/cluster_comparison_medians.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/seg_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/seg_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/tsa_plot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/var_imp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/var_imp_plot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/ES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/_config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/form-submission-handler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/google-apps-script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/index_.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_drafts/xai_questionairre/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-02-01-xai-form.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/ES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/_config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/form-submission-handler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/google-apps-script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/index_.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,16 +53,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -41,61 +73,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-01-31-howdy.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-01-31-howdy.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+              <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/index.html">
+        <entry file="file://$PROJECT_DIR$/_drafts/xai_questionairre/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="1255">
+              <caret line="701" column="41" lean-forward="false" selection-start-line="701" selection-start-column="41" selection-end-line="701" selection-end-column="41" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#1;n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#span#0;n#fieldset#5;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
+      <file leaf-file-name="2018-01-31-howdy.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-01-31-howdy.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="atom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/atom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="1" lean-forward="false" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+            <state relative-caret-position="90">
+              <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -110,6 +117,18 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>form</find>
+      <find>form</find>
+      <find>entry.1624293294</find>
+      <find>entry.</find>
+      <find>Tj9Y4e</find>
+      <find>submit</find>
+      <find>1436438490</find>
+      <find>base-js</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -133,6 +152,17 @@
         <option value="$PROJECT_DIR$/blog/index.html" />
         <option value="$PROJECT_DIR$/blog/atom.xml" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_posts/form_pieces.html" />
+        <option value="$PROJECT_DIR$/_drafts/xai_questionairre/notebook.html" />
+        <option value="$PROJECT_DIR$/_drafts/xai_questionairre/form_question.html" />
+        <option value="$PROJECT_DIR$/_drafts/xai_questionairre/xai_questionaire_files/notebook_embed_in_form.html" />
+        <option value="$PROJECT_DIR$/_drafts/xai_questionairre/notebook_embed_in_form.html" />
+        <option value="$PROJECT_DIR$/_drafts/xai_questionairre/xai_questionaire_files/form_trial.html" />
+        <option value="$PROJECT_DIR$/_drafts/xai_questionairre/xai_questionaire_files/form-submission-handler.js" />
+        <option value="$PROJECT_DIR$/_drafts/xai_questionairre/xai_questionaire_files/trial.html" />
+        <option value="$PROJECT_DIR$/_drafts/xai_questionairre/form_pieces.html" />
+        <option value="$PROJECT_DIR$/_drafts/xai_questionairre/xai_questionaire.html" />
+        <option value="$PROJECT_DIR$/_drafts/xai_questionairre/index.html" />
       </list>
     </option>
   </component>
@@ -187,7 +217,18 @@
             <path>
               <item name="vectosaurus.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="vectosaurus.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="_drafts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vectosaurus.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vectosaurus.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_drafts" type="462c0819:PsiDirectoryNode" />
+              <item name="xai_questionairre" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vectosaurus.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vectosaurus.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -200,9 +241,12 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_drafts/xai_questionairre" />
+      <recent name="$PROJECT_DIR$/_drafts" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -297,6 +341,7 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -309,7 +354,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -343,26 +387,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-01-31-howdy.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -391,10 +419,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_drafts/xai_questionairre/notebook.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="74" lean-forward="true" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_drafts/xai_questionairre/form_question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_drafts/xai_questionairre/xai_questionaire_files/notebook_embed_in_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_drafts/xai_questionairre/xai_questionaire_files/form-submission-handler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="99" column="61" lean-forward="false" selection-start-line="99" selection-start-column="61" selection-end-line="99" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_drafts/xai_questionairre/xai_questionaire_files/form_trial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_drafts/xai_questionairre/xai_questionaire_files/trial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="107" column="43" lean-forward="true" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_drafts/xai_questionairre/notebook_embed_in_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="110" column="130" lean-forward="false" selection-start-line="110" selection-start-column="130" selection-end-line="110" selection-end-column="130" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_drafts/xai_questionairre/form_pieces.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="479" column="0" lean-forward="false" selection-start-line="479" selection-start-column="0" selection-end-line="524" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_drafts/xai_questionairre/xai_questionaire.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="301" column="117" lean-forward="false" selection-start-line="301" selection-start-column="117" selection-end-line="301" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_drafts/xai_questionairre/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1255">
+          <caret line="701" column="41" lean-forward="false" selection-start-line="701" selection-start-column="41" selection-end-line="701" selection-end-column="41" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#1;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#fieldset#5;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-01-31-howdy.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
           <folding />
         </state>
       </provider>
