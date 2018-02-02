@@ -1056,6 +1056,7 @@ th {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  /*background-color:white;*/
 }
 *:before,
 *:after {
@@ -11721,3 +11722,12 @@ div#notebook {
   }
 }
 
+/*
+#question1, #question2,#question3,#question4,#question5{
+color:#666;
+font-size:01.2em;
+font-family: Roboto;
+width:80%;
+margin:0 auto;
+}
+*/

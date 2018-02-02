@@ -24,14 +24,85 @@ textarea {
   color: white;
   border-radius: 4px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  background: rgb(28, 184, 65); /* this is a green */
+  background: dodgerblue;
+  padding:10px;
 }
 .button-xlarge {
   font-size: 125%;
+    margin:30px auto;
+  position:absolute;
+  left:50%;
 }
 button {
   float: right;
 }
 #name, #email {
   width: 50%;
+}
+
+fieldset{
+color:#444;
+font-size:01em;
+font-family: Roboto;
+width:100%;
+padding: 10px;
+margin:30px 0px;
+background-color:#FFF2E4;
+border-radius: 5px;
+}
+
+fieldset>label{
+color:#666;
+font-size:0.9em;
+font-family: Tahoma;
+}
+
+.email_class{
+background-color:#fff;
+/*position:absolute;*/
+width:50%;
+text-align:center;
+margin:0 auto;
+}
+
+#email{
+border-radius:4px;
+border:2px solid #eee
+}
+
+#submit_msg {
+widht:20%;
+margin: 0px auto;
+padding-top:5px;
+text-align:center;
+color:#666;
+font-size:0.9em;
+}
+
+#submit_msg {
+  -webkit-animation: seconds 2.0s forwards;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 3s;
+  animation: seconds 1.0s forwards;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+  position: relative;
+}
+@-webkit-keyframes seconds {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: -9999px;
+  }
+}
+@keyframes seconds {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: -9999px;
+  }
 }
