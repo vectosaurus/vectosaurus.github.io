@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f676e50d-f56f-4725-83d4-ec98d1a07c58" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/xai_questionaire_custom.css" afterPath="$PROJECT_DIR$/css/xai_questionaire_custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -226,6 +223,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Shubham Ashok Gandhi &lt;shubhamashokgandhi@gmail.com&gt;" />
         <option value="removed toc" />
         <option value="shubhamashokgandhi@gmail.com" />
         <option value="shubhamgandhi" />
@@ -536,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517549303772</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added styles&#10;added rich content">
+      <created>1517558518627</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1517558518627</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -571,7 +576,8 @@
     <MESSAGE value="added style tags" />
     <MESSAGE value="updated refernce" />
     <MESSAGE value="removed toc" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed toc" />
+    <MESSAGE value="added styles&#10;added rich content" />
+    <option name="LAST_COMMIT_MESSAGE" value="added styles&#10;added rich content" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
