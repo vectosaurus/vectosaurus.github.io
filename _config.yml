@@ -5,4 +5,5 @@ port: 8000
 auto: true
 safe: true
 server: true
-pygments: true
+# pygments: true
+highlights: rouge
