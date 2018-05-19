@@ -7,3 +7,5 @@ safe: true
 server: true
 # pygments: true
 highlights: rouge
+
+theme: jekyll-theme-cayman
