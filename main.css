@@ -157,23 +157,23 @@ a.social-icon {
 
 
 .job-details {
-    background: #fff;
+    background: #f8f9fa;
     padding: 15px;
     margin-bottom: 1em;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     margin: 20px 0;
     font-size: 1em; 
-    border-left: 4px solid #1B4242;
-    color: #1B4242; 
+    border-left: 4px solid #183b3b;
+    color: #315454; 
     transition: all 0.1s ease;
 }
 
 .job-details strong {
-    color: #1B4242;
+    color: #315454;
 }
 
 summary{
-    color: #1B4242;
+    color: #315454;
     cursor: pointer;
     user-select: none;
 }
@@ -280,7 +280,7 @@ summary{
 
 .highlight {
     /* color: #1B4242;  */
-    background-color: #F3FDE8; 
+    background-color: #FAF6F0; 
     padding: 2px; 
     border-radius: 4px; 
     font-weight: 550;
