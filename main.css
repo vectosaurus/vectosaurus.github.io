@@ -68,6 +68,9 @@ body {
     opacity: 0.99; /* Slight transparency on hover */
 }
 
+a.social-icon {
+    text-decoration: none;
+}
 
 /* Resume Section Styles */
 .resume {
