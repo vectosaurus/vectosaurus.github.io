@@ -1,0 +1,296 @@
+/* Base resets and body styles */
+:root {
+    --accent-color: #495057; /* Blue shade */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#f1f1f1;
+    display: flex;
+    min-height: 100vh; 
+    font-family: Arial, sans-serif;
+    flex-direction: column; 
+    line-height: 1.6;
+}
+
+
+/* Header Styles */
+.name-header {
+    padding: 30px 0; /* Updated to provide padding on top and bottom only */
+    font-size: 36px;
+    font-family: "Open Sans", Arial, sans-serif; /* Ensure fallback fonts are provided */
+    width: 100%; /* Ensure full width */
+    text-align: center; /* Center the text */
+    color: #ffffff;
+    /* background-color: #776B5D; */
+    background: linear-gradient(to right, #776B5D 0%, #092635 100%); 
+    border-bottom: 2px solid #444; 
+}
+
+
+.main-container {
+    display: flex;
+    flex: 1;
+}
+
+
+/* Profile Section Styles */
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex: none;
+    margin: 20px;
+}
+
+.profile-pic img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* Resume Section Styles */
+.resume {
+    flex-grow: 2;
+    padding: 20px;
+    margin: 20px;
+    max-width: 60%;
+    background-color: white; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Consistent shadow with nav bar */
+    border-radius: 5px;
+    overflow: auto; /* Allow scrolling within the resume box */
+}
+
+.resume h3 {
+    color: #adb5bd; /* Soft grey for less intensity */
+}
+
+.resume ul li::before {
+    color: var(--accent-color); /* For bullet points */
+}
+
+.resume p, .resume ul {
+    line-height: 1.6;
+}
+
+.resume-header {
+    margin:20px 0px;
+}
+
+.resume-section {
+    margin: 30px 0px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.resume-section h3 {
+    font-size: 21px;
+    color: #444;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+
+}
+.resume-section p {
+    font-size: 15px;
+    margin: 10px 0px;
+    color: #444;
+    
+}
+
+/* Job Section Styles */
+.job-container{
+    margin: 5px 0px;
+}
+
+.job {
+    margin: 20px 0px;
+}
+
+.job-meta {
+    display: flex;
+    font-style: italic;
+    color: #555;
+    margin: 10px 0px 10px 0px;
+}
+
+.job-meta span {
+    margin-right: 10px;
+}
+
+.job-title {
+    margin-bottom: 0.25em; 
+    font-size: 1.2em; 
+    font-weight: bold; 
+}
+
+
+.job-details {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 1em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    font-size: 1em; 
+    border-left: 4px solid #1B4242;
+    color: #1B4242; 
+}
+
+.job-details strong {
+    color: #1B4242;
+}
+
+summary{
+    color: #1B4242
+}
+
+.job-details h4 {
+    margin-bottom: 7px;
+}
+
+.job-details p {
+    margin-bottom: 10px;
+}
+
+.job-role {
+    font-weight: bold;
+}
+
+
+
+
+/* Navigation Styles */
+.nav-bar-container {
+    position: fixed; 
+    top: 0; 
+    left: -200px; 
+    bottom: 0; 
+    width: 200px; 
+    transition: left 0.3s ease; 
+    z-index: 1000; 
+}
+
+.nav-bar {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: left;
+    width: 200px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    padding: 20px 10px;
+    align-items: center;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar li {
+    padding: 10px 0;
+    border-bottom: 1px solid #484848;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #adb5bd;
+    display: block;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.nav-bar a:hover {
+    background-color: #34495e; 
+    color: white;
+}
+
+.nav-bar-container {
+    top: 25px;
+}
+
+.hamburger-icon {
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    font-size: 25px; 
+    color: #fff; 
+    transition: transform 0.0s ease; 
+    user-select: none; 
+    position: fixed; 
+    z-index: 1500;
+    padding: 10px;
+}
+
+.hamburger-icon.active {
+    color: #fff;
+}
+
+
+
+.job-details:hover {
+    background-color: #f1f2f6; /* Light background on hover */
+    /* cursor: help; */
+}
+
+.job {
+    background-image: url('images/');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+}
+
+
+/* text highlighting */
+
+.highlight {
+    /* color: #1B4242;  */
+    background-color: #F3FDE8; 
+    padding: 2px; 
+    border-radius: 4px; 
+    font-weight: 550;
+    display: inline-block; 
+    margin: 0px 1px; 
+}
+
+/* course container styling */
+.course-container ul {
+    list-style: none;   
+}
+
+.course-container a {
+    text-decoration: none;
+    color: #34495e;
+    display: block;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.course-container a:hover {
+    color: #608080;
+}
+
+
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+    }
+    .resume {
+        width: 100%;
+        padding: 10px;
+    }
+    .name-header {
+        text-align: center;
+    }
+    
+}
