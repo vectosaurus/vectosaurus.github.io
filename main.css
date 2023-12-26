@@ -53,7 +53,21 @@ body {
 .profile-pic img {
     width: 200px;
     border-radius: 50%;
+    object-fit: cover; 
 }
+
+.social-icon img {
+    width: 20px; /* Size the icons appropriately */
+    height: 20px; /* Keep the icons square */
+    margin: 10px 5px; /* Spacing between icons */
+    opacity: 0.8;
+    transition: opacity 0.1s ease; /* Smooth transition for hover effect */
+}
+
+.social-icon:hover img {
+    opacity: 0.99; /* Slight transparency on hover */
+}
+
 
 /* Resume Section Styles */
 .resume {
